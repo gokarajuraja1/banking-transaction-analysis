@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated reports
+reports/*.csv
+reports/*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
